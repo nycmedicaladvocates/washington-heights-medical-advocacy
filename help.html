@@ -1,77 +1,97 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Get Help • Washington Heights Medical Advocacy</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; line-height:1.6; color:#111; }
-    header { background:#0b1c2d; color:#fff; padding:18px; }
-    header .wrap, main { max-width: 980px; margin: 0 auto; }
-    nav a { display:inline-block; margin:6px 10px 0 0; padding:10px 12px; border-radius:10px; text-decoration:none; border:1px solid #fff; color:#fff; }
-    main { padding: 18px; }
-    .card { border:1px solid #e6e6e6; border-radius:14px; padding:14px; margin:14px 0; }
-    .warn { border-left:5px solid #c00; padding-left:10px; }
-    .muted { color:#444; font-size:14px; }
-    .btn { display:inline-block; margin:8px 10px 0 0; padding:10px 12px; border-radius:10px; text-decoration:none; border:1px solid #0b1c2d; color:#0b1c2d; font-weight:bold; }
-    iframe { width: 100%; min-height: 900px; border: 0; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request Free Help • Washington Heights Medical Advocacy</title>
+<style>
+:root{--navy:#0b1c2d;--soft:#f6f7f9;--text:#111;--muted:#555;--border:#e6e6e6;--danger:#b00020;--radius:16px;--shadow:0 10px 24px rgba(0,0,0,.08);}
+*{box-sizing:border-box;}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;background:#fff;color:var(--text);}
+header{background:var(--navy);color:#fff;padding:24px 18px;}
+.wrap{max-width:1000px;margin:auto;}
+nav a{margin:6px 8px 0 0;padding:10px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.5);color:#fff;text-decoration:none;font-weight:bold;}
+nav a.primary{background:#fff;color:var(--navy);}
+main{padding:18px;max-width:1000px;margin:auto;}
+.card{border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin:14px 0;box-shadow:var(--shadow);background:#fff;}
+.soft{background:var(--soft);}
+.danger{border-left:6px solid var(--danger);padding-left:12px;}
+.mini{color:var(--muted);font-size:14px;}
+.pill{display:inline-block;padding:9px 12px;border-radius:999px;border:1px solid var(--border);text-decoration:none;font-weight:bold;margin-top:8px;}
+footer{border-top:1px solid var(--border);margin-top:22px;padding:18px;color:var(--muted);font-size:14px;}
+iframe{border:none;border-radius:12px;}
+</style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="clinics.html">Clinics</a>
-        <a href="nyccare.html">NYC Care</a>
-        <a href="narcan.html">Free Narcan</a>
-        <a href="es.html">Español</a>
-      </nav>
-      <h1>Request Help</h1>
-      <p class="muted warn"><strong>Emergency?</strong> Call <strong>911</strong>.</p>
-    </div>
-  </header>
 
-  <main>
-    <div class="card">
-      <h2>How we can help</h2>
-      <ul>
-        <li>Find the right clinic based on your needs</li>
-        <li>Help you figure out what number to call</li>
-        <li>Help you prepare what to say when you call</li>
-        <li>NYC Care / financial counselor guidance</li>
-        <li>Directions by subway/bus</li>
-      </ul>
-      <p class="muted">We are not a hospital and we do not provide emergency medical services.</p>
-    </div>
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="hub.html">All Resources</a>
+      <a href="clinics.html">Clinics</a>
+      <a href="nyccare.html">NYC Care</a>
+      <a href="narcan.html">Narcan</a>
+      <a class="primary" href="help.html">Request Help</a>
+    </nav>
+    <h1>Request Free Help</h1>
+    <p>This is a <strong>free community service</strong>. We help Washington Heights residents navigate healthcare.</p>
+  </div>
+</header>
 
-    <div class="card">
-      <h2>Request help (form)</h2>
-      <p class="muted">Step 1: Create a Google Form. Step 2: paste the embed link below (instructions under this box).</p>
+<main>
 
-      <!-- AFTER YOU CREATE YOUR GOOGLE FORM, REPLACE THE iframe src BELOW WITH YOUR FORM'S EMBED LINK -->
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCfmMq1RNitvftZcz01y6F4MdtkhTU7YBRRU74-Y8vuYIISw/viewform?usp=header"></iframe>
-    </div>
+  <div class="card danger">
+    <strong>Emergency?</strong> If someone is in danger or needs immediate medical help, call <strong>911</strong>.
+  </div>
 
-    <div class="card">
-      <h2>How to create the Google Form + embed it</h2>
-      <ol>
-        <li>Go to forms.google.com → Blank form</li>
-        <li>Title: “Washington Heights Medical Advocacy – Request Help”</li>
-        <li>Add questions:
-          <ul>
-            <li>Language / Idioma (English / Español)</li>
-            <li>Name (optional)</li>
-            <li>Phone or Email</li>
-            <li>What do you need help with? (appointment / NYC Care / clinic choice / directions / other)</li>
-            <li>Best time to reach you</li>
-          </ul>
-        </li>
-        <li>Click <strong>Send</strong> → choose the <strong>&lt; &gt;</strong> embed icon → copy the embed link</li>
-        <li>Paste that link into the iframe src above (replace the placeholder text)</li>
-      </ol>
-      <a class="btn" href="https://forms.google.com" target="_blank" rel="noopener">Create Google Form</a>
-    </div>
-  </main>
+  <div class="card soft">
+    <h2>What we can help with (for free)</h2>
+    <ul>
+      <li>Finding a doctor or clinic</li>
+      <li>Help enrolling in NYC Care or other programs</li>
+      <li>Making medical appointments</li>
+      <li>Understanding medical bills or insurance letters</li>
+      <li>Transportation planning for appointments</li>
+      <li>Lowering medication costs</li>
+      <li>Help after a hospital visit</li>
+      <li>Senior support (forms, portals, follow-ups)</li>
+    </ul>
+    <p class="mini">We are volunteers. We do not charge money and we do not sell insurance.</p>
+  </div>
+
+  <div class="card">
+    <h2>Fill out the form below</h2>
+    <p class="mini">
+      Tell us what you need help with and a volunteer will contact you.  
+      If your situation is urgent, please also call your doctor’s office or clinic directly.
+    </p>
+
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeCfmMq1RNitvftZcz01y6F4MdtkhTU7YBRRU74-Y8vuYIISw/viewform?embedded=true"
+      width="100%" 
+      height="1100">
+      Loading…
+    </iframe>
+  </div>
+
+  <div class="card soft">
+    <h2>How this works</h2>
+    <ol>
+      <li>You fill out the form</li>
+      <li>A volunteer reviews your request</li>
+      <li>We contact you by phone or email</li>
+      <li>We guide you step-by-step on what to do next</li>
+    </ol>
+    <p class="mini">We are not doctors and do not give medical advice. We help you navigate the system.</p>
+  </div>
+
+</main>
+
+<footer>
+  Washington Heights Medical Advocacy • Free Community Navigation Service  
+  This website provides general information and navigation help, not medical advice.
+</footer>
+
 </body>
 </html>
