@@ -4,53 +4,74 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NYC Care • Washington Heights Medical Advocacy</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; line-height:1.6; color:#111; }
-    header { background:#0b1c2d; color:#fff; padding:18px; }
-    header .wrap, main { max-width: 980px; margin: 0 auto; }
-    nav a { display:inline-block; margin:6px 10px 0 0; padding:10px 12px; border-radius:10px; text-decoration:none; border:1px solid #fff; color:#fff; }
-    main { padding: 18px; }
-    .card { border:1px solid #e6e6e6; border-radius:14px; padding:14px; margin:14px 0; }
-    .btn { display:inline-block; margin:8px 10px 0 0; padding:10px 12px; border-radius:10px; text-decoration:none; border:1px solid #0b1c2d; color:#0b1c2d; font-weight:bold; }
-    .warn { border-left:5px solid #c00; padding-left:10px; }
-    .muted { color:#444; font-size:14px; }
-  </style>
+  <meta name="description" content="NYC Care overview and navigation help for uninsured residents." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="clinics.html">Clinics</a>
-        <a href="narcan.html">Free Narcan</a>
-        <a href="help.html">Get Help</a>
-        <a href="es.html">Español</a>
-      </nav>
-      <h1>NYC Care (Low / No-Cost Care)</h1>
-      <p class="muted warn"><strong>Emergency?</strong> Call <strong>911</strong>.</p>
-    </div>
-  </header>
 
-  <main>
+<div class="topbar">
+  <div class="nav">
+    <div class="brand"><span class="dot"></span>WH Medical Advocacy</div>
+    <div class="navlinks">
+      <a class="pill" href="index.html">Home</a>
+      <a class="pill" href="hub.html">All Resources</a>
+      <a class="pill" href="help.html">Request Help</a>
+      <a class="pill" href="clinics.html">Clinics</a>
+      <a class="pill primary" href="nyccare.html">NYC Care</a>
+      <a class="pill" href="narcan.html">Narcan</a>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top:18px;">
+  <div class="card glow">
+    <p class="kicker">UNINSURED OPTIONS</p>
+    <div class="h2">NYC Care (navigation guide)</div>
+    <p class="sub">
+      NYC Care is a program through NYC Health + Hospitals that can help eligible uninsured New Yorkers access care.
+      Our role is to help you understand next steps and where to call.
+    </p>
+    <div class="badge">✅ Our help is free • Eligibility/cost depends on the program</div>
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Request help enrolling</a>
+      <a class="cta" href="hub.html#care">Back to Care & Insurance</a>
+    </div>
+  </div>
+
+  <div class="grid cols-2" style="margin-top:14px;">
     <div class="card">
-      <h2>What is NYC Care?</h2>
-      <p>NYC Care is a health care access program through NYC Health + Hospitals for New Yorkers who cannot afford or do not qualify for health insurance.</p>
+      <p class="kicker">What we can help with (free)</p>
+      <div class="h2">Step-by-step guidance</div>
+      <ul>
+        <li>Figure out if NYC Care is a good option to explore</li>
+        <li>Help you prepare what to ask when you call</li>
+        <li>Help you identify which site/clinic to contact</li>
+        <li>Help with paperwork questions (what to bring)</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request Help</a>
+      </div>
     </div>
 
     <div class="card">
-      <h2>How to enroll</h2>
-      <p><strong>Call NYC Care:</strong> <a href="tel:+16466922273">1-646-NYC-CARE (646-692-2273)</a></p>
-      <p><strong>Email:</strong> <a href="mailto:NYCCare@nychhc.org">NYCCare@nychhc.org</a></p>
-      <a class="btn" href="https://www.nyccare.nyc/" target="_blank" rel="noopener">NYC Care Website</a>
-      <a class="btn" href="help.html">Request Help Enrolling</a>
+      <p class="kicker">If you need care now</p>
+      <div class="h2">Use the Clinic Directory</div>
+      <p class="mini">
+        If you’re sick today or need evaluation soon, clinics may have faster pathways than enrollment steps.
+      </p>
+      <div class="callouts">
+        <a class="cta primary" href="clinics.html">Clinic directory</a>
+        <a class="cta" href="help.html">Help choosing where</a>
+      </div>
+      <p class="mini">Emergency? Call 911.</p>
     </div>
+  </div>
 
-    <div class="card">
-      <h2>Need help paying a hospital bill or applying for financial assistance?</h2>
-      <p>NYC Health + Hospitals financial counselors can help you apply for insurance coverage or financial assistance.</p>
-      <p><strong>Call:</strong> <a href="tel:+18446924692">1-844-692-4692</a> (financial counselor option is often listed as option 3).</p>
-      <a class="btn" href="https://www.nychealthandhospitals.org/financial-assistance/" target="_blank" rel="noopener">Financial Assistance Info</a>
-    </div>
-  </main>
+  <div class="footer">
+    <div class="smallcaps">Important</div>
+    We provide navigation help, not medical advice. For emergencies call <strong>911</strong>.
+  </div>
+</div>
+
 </body>
 </html>
