@@ -5,34 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Washington Heights Medical Advocacy</title>
   <style>
-    :root{
-      --navy:#0b1c2d; --bg:#fff; --soft:#f6f7f9; --text:#111; --muted:#4a4a4a;
-      --border:#e6e6e6; --danger:#b00020; --radius:16px; --shadow:0 10px 24px rgba(0,0,0,.08);
-    }
-    *{ box-sizing:border-box; }
-    body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.55; color:var(--text); background:var(--bg); }
-    a{ color:inherit; }
-    header{ background:linear-gradient(180deg,#0b1c2d 0%,#06101a 100%); color:#fff; padding:42px 18px 18px; }
-    .wrap{ max-width:1080px; margin:0 auto; }
-    h1{ margin:0 0 10px; font-size:34px; }
-    .sub{ margin:0; max-width:920px; color:#e9eef5; }
-    .topbtns{ display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
-    .btn{ display:inline-flex; align-items:center; justify-content:center; padding:11px 14px; border-radius:999px; border:1px solid rgba(255,255,255,.55); text-decoration:none; font-weight:800; color:#fff; background:transparent; }
-    .btn.primary{ background:#fff; color:var(--navy); border-color:#fff; }
-    .btn.ghost{ background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.15); }
-    main{ max-width:1080px; margin:0 auto; padding:18px; }
-    .grid{ display:grid; gap:14px; }
-    @media (min-width: 950px){ .cols-3{ grid-template-columns:1fr 1fr 1fr; } .cols-2{ grid-template-columns:1fr 1fr; } }
-    .card{ background:#fff; border:1px solid var(--border); border-radius:var(--radius); padding:16px; box-shadow:var(--shadow); }
-    .card.soft{ background:var(--soft); }
-    .kicker{ margin:0 0 6px; font-size:12px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); font-weight:900; }
-    h2{ margin:6px 0 8px; font-size:20px; }
-    .mini{ color:var(--muted); font-size:14px; }
-    .danger{ border-left:6px solid var(--danger); padding-left:12px; }
-    .pills{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-    .pill{ display:inline-flex; padding:9px 12px; border-radius:999px; border:1px solid var(--border); background:#fff; text-decoration:none; font-weight:900; font-size:14px; }
-    footer{ border-top:1px solid var(--border); margin-top:22px; padding:18px; color:var(--muted); font-size:14px; }
-    .searchTip{ border:1px dashed var(--border); border-radius:14px; padding:14px; background:#fff; }
+    :root{ --navy:#0b1c2d; --bg:#fff; --soft:#f6f7f9; --text:#111; --muted:#4a4a4a; --border:#e6e6e6; --danger:#b00020; --radius:16px; --shadow:0 10px 24px rgba(0,0,0,.08);}
+    *{box-sizing:border-box;}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;color:var(--text);background:var(--bg);}
+    header{background:linear-gradient(180deg,#0b1c2d 0%,#06101a 100%);color:#fff;padding:42px 18px 18px;}
+    .wrap{max-width:1080px;margin:0 auto;}
+    h1{margin:0 0 10px;font-size:34px;}
+    .sub{margin:0;color:#e9eef5;}
+    .freebadge{margin-top:10px;font-weight:800;background:#1c3b5a;padding:8px 14px;border-radius:999px;display:inline-block;}
+    .topbtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
+    .btn{padding:11px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.55);text-decoration:none;font-weight:800;color:#fff;}
+    .btn.primary{background:#fff;color:var(--navy);}
+    main{max-width:1080px;margin:0 auto;padding:18px;}
+    .card{border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin:14px 0;box-shadow:var(--shadow);}
+    .danger{border-left:6px solid var(--danger);padding-left:12px;}
+    .mini{color:var(--muted);font-size:14px;}
+    footer{border-top:1px solid var(--border);margin-top:22px;padding:18px;color:var(--muted);font-size:14px;}
   </style>
 </head>
 <body>
@@ -40,94 +28,39 @@
 <header>
   <div class="wrap">
     <h1>Washington Heights Medical Advocacy</h1>
-    <p class="sub">
-      One-stop resource hub for care in Washington Heights — uninsured options, seniors support, transportation, medication cost help, and more.
-      If you’re not sure where to start, click “All Resources (Start Here)”.
-    </p>
+    <p class="sub">A community-run health navigation service for Washington Heights residents.</p>
+    <div class="freebadge">100% FREE COMMUNITY HELP • NO FEES • NO INSURANCE SALES</div>
 
     <div class="topbtns">
       <a class="btn primary" href="hub.html">All Resources (Start Here)</a>
-      <a class="btn ghost" href="help.html">Request Help</a>
-      <a class="btn ghost" href="clinics.html">Clinic Directory</a>
-      <a class="btn ghost" href="nyccare.html">NYC Care</a>
-      <a class="btn ghost" href="narcan.html">Free Narcan</a>
-      <a class="btn" href="en.html">English</a>
-      <a class="btn" href="es.html">Español</a>
+      <a class="btn" href="help.html">Request Free Help</a>
+      <a class="btn" href="clinics.html">Clinics</a>
+      <a class="btn" href="nyccare.html">NYC Care</a>
+      <a class="btn" href="narcan.html">Free Narcan</a>
     </div>
   </div>
 </header>
 
 <main>
 
-  <div class="grid cols-3">
-    <div class="card danger">
-      <p class="kicker">Emergency</p>
-      <h2>Call 911</h2>
-      <p class="mini">Trouble breathing, chest pain, overdose, severe bleeding, stroke symptoms, fainting, life-threatening emergency.</p>
-    </div>
-
-    <div class="card">
-      <p class="kicker">Not sure what to do?</p>
-      <h2>Start with the All Resources page</h2>
-      <p class="mini">Choose your situation (uninsured, senior help, meds, transportation, mental health, etc.) and get the next step.</p>
-      <div class="pills">
-        <a class="pill" href="hub.html">All Resources</a>
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-    </div>
-
-    <div class="card soft">
-      <p class="kicker">Fast links</p>
-      <h2>Most-used</h2>
-      <div class="pills">
-        <a class="pill" href="clinics.html">Clinics</a>
-        <a class="pill" href="nyccare.html">NYC Care</a>
-        <a class="pill" href="narcan.html">Narcan</a>
-      </div>
-      <p class="mini">Designed for quick access on phones.</p>
-    </div>
+  <div class="card danger">
+    <strong>Emergency?</strong> Call 911 immediately.
   </div>
 
-  <div class="grid cols-2" style="margin-top:14px;">
-    <div class="card">
-      <p class="kicker">What we help with</p>
-      <h2>Navigation & real help</h2>
-      <ul style="margin:8px 0 0 18px;">
-        <li>Uninsured care options (NYC Care + community clinics)</li>
-        <li>Senior support (appointments, portals, forms, follow-ups)</li>
-        <li>Transportation help (routes, Access-A-Ride, Medicaid rides)</li>
-        <li>Lowering medication costs (discount cards, assistance programs)</li>
-        <li>Finding mental health, primary care, specialty care</li>
-      </ul>
-      <div class="pills">
-        <a class="pill" href="hub.html">Go to All Resources</a>
-      </div>
-    </div>
-
-    <div class="card soft">
-      <p class="kicker">Languages</p>
-      <h2>We’re expanding</h2>
-      <p class="mini">English + Spanish are live. We can add more common NYC languages next (Chinese, Russian, Bengali, Haitian Creole, Korean, Arabic, Urdu, etc.).</p>
-      <div class="pills">
-        <a class="pill" href="en.html">English</a>
-        <a class="pill" href="es.html">Español</a>
-      </div>
-      <div class="searchTip" style="margin-top:12px;">
-        <strong>Tip:</strong> If you can’t find what you need, use the <strong>Request Help</strong> page and we’ll guide you step-by-step.
-      </div>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-    </div>
+  <div class="card">
+    <h2>Everything on this site is free</h2>
+    <ul>
+      <li>We do not charge money</li>
+      <li>We do not sell insurance</li>
+      <li>We are not connected to any company</li>
+      <li>We are volunteers helping you navigate the system</li>
+    </ul>
   </div>
 
 </main>
 
 <footer>
-  <div class="wrap">
-    <strong>Important:</strong> This website provides general information and navigation help. It is not medical advice and not emergency services.
-    For emergencies, call <strong>911</strong>.
-  </div>
+  This website provides general information and navigation help. It is not medical advice. For emergencies call 911.
 </footer>
 
 </body>
