@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Resources • Washington Heights Medical Advocacy</title>
+  <meta name="description" content="All resources: uninsured care, mental health support, senior help, transportation guidance, medication cost help, and overdose prevention." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="nav">
+    <div class="brand">
+      <span class="dot"></span>
+      WH Medical Advocacy
+    </div>
+    <div class="navlinks">
+      <a class="pill" href="index.html">Home</a>
+      <a class="pill primary" href="hub.html">All Resources</a>
+      <a class="pill" href="help.html">Request Help</a>
+      <a class="pill" href="clinics.html">Clinics</a>
+      <a class="pill" href="nyccare.html">NYC Care</a>
+      <a class="pill" href="narcan.html">Narcan</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card glow" style="margin-top:18px;">
+    <p class="kicker">START HERE</p>
+    <div class="h2">All Resources (organized by what you need)</div>
+    <p class="sub">
+      Choose a category below. If you’re unsure, use <strong>Request Help</strong> and a volunteer will guide you.
+    </p>
+    <div class="badge">✅ Free volunteer help • No fees • No insurance sales</div>
+
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Request Free Help</a>
+      <a class="cta" href="#mental">Mental health</a>
+      <a class="cta" href="#care">Uninsured / care</a>
+      <a class="cta" href="#seniors">Seniors</a>
+      <a class="cta" href="#transport">Transportation</a>
+      <a class="cta" href="#meds">Medication costs</a>
+      <a class="cta" href="#substance">Narcan / overdose</a>
+    </div>
+  </div>
+
+  <div class="grid cols-3" style="margin-top:14px;">
+    <div class="card strip danger">
+      <p class="kicker">Emergency</p>
+      <div class="h2">Call 911</div>
+      <p class="mini">Life-threatening symptoms, severe bleeding, trouble breathing, overdose, immediate danger.</p>
+    </div>
+    <div class="card strip warn">
+      <p class="kicker">Mental health crisis</p>
+      <div class="h2">Call/Text 988</div>
+      <p class="mini">24/7 free crisis support by phone/text/chat.</p>
+    </div>
+    <div class="card strip good">
+      <p class="kicker">NYC support</p>
+      <div class="h2">NYC Well</div>
+      <p class="mini">Call 1-888-692-9355 • Text WELL to 65173 • Chat on NYC 988 site.</p>
+    </div>
+  </div>
+
+  <div class="grid cols-2" style="margin-top:14px;">
+
+    <div class="card" id="mental">
+      <p class="kicker">Mental health</p>
+      <div class="h2">Anxiety, depression, therapy, crisis support</div>
+      <ul>
+        <li><strong>Immediate support:</strong> Call or text <strong>988</strong></li>
+        <li><strong>NYC Well (free):</strong> 1-888-692-9355 • Text WELL to 65173 • Chat via NYC 988 site</li>
+        <li><strong>Ongoing care:</strong> We can help you find therapy/psychiatry through community clinics or NYC Health + Hospitals</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request Help Finding Support</a>
+        <a class="cta" href="tel:988">Call/Text 988</a>
+      </div>
+      <details>
+        <summary>What we can do (free)</summary>
+        <ul>
+          <li>Help you pick the right next step (crisis vs urgent vs routine)</li>
+          <li>Help you call and schedule</li>
+          <li>Help you find low/no-cost options</li>
+        </ul>
+      </details>
+    </div>
+
+    <div class="card glow" id="care">
+      <p class="kicker">Medical care & insurance</p>
+      <div class="h2">Uninsured care, clinic care, bills</div>
+      <ul>
+        <li>NYC Care enrollment guidance</li>
+        <li>Community clinics (often sliding-scale fees)</li>
+        <li>Help understanding a bill letter and where to call</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request Help</a>
+        <a class="cta" href="nyccare.html">NYC Care</a>
+        <a class="cta" href="clinics.html">Clinic Directory</a>
+      </div>
+      <p class="mini">Our help is free; program eligibility/cost depends on the clinic or insurer.</p>
+    </div>
+
+    <div class="card" id="seniors">
+      <p class="kicker">Help for seniors</p>
+      <div class="h2">Appointments, forms, portals, post-hospital steps</div>
+      <ul>
+        <li>Scheduling and follow-ups</li>
+        <li>Patient portals (MyChart), paperwork, letters</li>
+        <li>Medication organization plan (simple schedule)</li>
+        <li>Transportation planning (see next section)</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request Senior Help</a>
+        <a class="cta" href="#transport">Transportation</a>
+      </div>
+      <p class="mini">We do not give medical advice — we help with logistics and navigation.</p>
+    </div>
+
+    <div class="card" id="transport">
+      <p class="kicker">Transportation</p>
+      <div class="h2">Getting to appointments</div>
+      <ul>
+        <li>Subway/bus directions</li>
+        <li>Access-A-Ride steps (paratransit)</li>
+        <li>Help asking about Medicaid non-emergency rides (if eligible)</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request Transportation Help</a>
+      </div>
+      <p class="mini">We do not personally transport patients.</p>
+    </div>
+
+    <div class="card" id="meds">
+      <p class="kicker">Medication costs</p>
+      <div class="h2">Lower prescription costs</div>
+      <ul>
+        <li>Compare prices across pharmacies using discount tools</li>
+        <li>Ask about generics and lower-cost alternatives</li>
+        <li>Help finding assistance programs when available</li>
+        <li>For seniors: pathways like Medicare plan checks / Extra Help</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="help.html">Request Medication Help</a>
+      </div>
+      <p class="mini">We don’t sell insurance and we don’t take payments.</p>
+    </div>
+
+    <div class="card" id="substance">
+      <p class="kicker">Substance use & overdose prevention</p>
+      <div class="h2">Narcan + overdose basics</div>
+      <ul>
+        <li>Call <strong>911</strong></li>
+        <li>Give naloxone (Narcan) if available</li>
+        <li>Stay with the person until help arrives</li>
+      </ul>
+      <div class="callouts">
+        <a class="cta primary" href="narcan.html">Where to Get Free Narcan</a>
+        <a class="cta" href="help.html">Request Help</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card" style="margin-top:14px;">
+    <p class="kicker">Not sure where to start?</p>
+    <div class="h2">Request free help</div>
+    <p class="sub">Tell us what’s going on. We’ll respond with the next step: where to go, what to ask, and how to schedule.</p>
+    <div class="callouts">
+      <a class="cta primary" href="help.html">Request Free Help</a>
+      <a class="cta" href="index.html">Back to Home</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="smallcaps">Important</div>
+    This website provides general information and free navigation help. It is not medical advice and not emergency services.
+    For emergencies call <strong>911</strong>.
+  </div>
+</div>
+
+</body>
+</html>
