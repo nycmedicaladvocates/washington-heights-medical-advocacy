@@ -1,168 +1,90 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>All Resources • Washington Heights Medical Advocacy</title>
-  <style>
-    :root{ --navy:#0b1c2d; --soft:#f6f7f9; --text:#111; --muted:#4a4a4a; --border:#e6e6e6; --danger:#b00020; --shadow:0 10px 24px rgba(0,0,0,.08); --radius:16px; }
-    *{ box-sizing:border-box; }
-    body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.55; color:var(--text); background:#fff; }
-    header{ background:var(--navy); color:#fff; padding:22px 18px; }
-    .wrap{ max-width:1080px; margin:0 auto; }
-    nav a{ display:inline-block; margin:6px 8px 0 0; padding:10px 12px; border-radius:999px; border:1px solid rgba(255,255,255,.55); color:#fff; text-decoration:none; font-weight:800; }
-    nav a.primary{ background:#fff; color:var(--navy); border-color:#fff; }
-    main{ max-width:1080px; margin:0 auto; padding:18px; }
-    .card{ border:1px solid var(--border); border-radius:var(--radius); padding:16px; margin:14px 0; box-shadow:var(--shadow); background:#fff; }
-    .soft{ background:var(--soft); }
-    .danger{ border-left:6px solid var(--danger); padding-left:12px; }
-    h1{ margin:10px 0 6px; }
-    h2{ margin:0 0 8px; font-size:20px; }
-    h3{ margin:12px 0 6px; font-size:16px; }
-    .mini{ color:var(--muted); font-size:14px; }
-    .pills{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-    .pill{ display:inline-flex; padding:9px 12px; border-radius:999px; border:1px solid var(--border); background:#fff; text-decoration:none; font-weight:900; font-size:14px; }
-    details{ border:1px solid var(--border); border-radius:14px; padding:12px 14px; background:#fff; margin-top:10px; }
-    summary{ cursor:pointer; font-weight:900; }
-    ul{ margin:8px 0 0 18px; }
-    .two{ display:grid; gap:14px; }
-    @media (min-width: 950px){ .two{ grid-template-columns:1fr 1fr; } }
-    code{ background:#f1f1f1; padding:2px 6px; border-radius:8px; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Free Resources • Washington Heights Medical Advocacy</title>
+<style>
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;background:#fff;color:#111}
+header{background:#0b1c2d;color:#fff;padding:20px}
+.wrap{max-width:1080px;margin:auto}
+nav a{margin-right:8px;color:#fff;text-decoration:none;font-weight:bold}
+.card{border:1px solid #e6e6e6;border-radius:16px;padding:16px;margin:14px 0}
+.soft{background:#f6f7f9}
+.danger{border-left:6px solid #b00020;padding-left:12px}
+.pill{display:inline-block;padding:8px 12px;border-radius:999px;border:1px solid #ddd;margin:5px 5px 0 0;text-decoration:none;font-weight:bold}
+.freebanner{background:#1c3b5a;color:#fff;padding:10px;border-radius:999px;font-weight:bold;margin-top:10px;display:inline-block}
+.mini{color:#555;font-size:14px}
+</style>
 </head>
 <body>
 
 <header>
   <div class="wrap">
     <nav>
-      <a class="primary" href="hub.html">All Resources</a>
       <a href="index.html">Home</a>
-      <a href="help.html">Request Help</a>
+      <a href="help.html">Request Free Help</a>
       <a href="clinics.html">Clinics</a>
       <a href="nyccare.html">NYC Care</a>
       <a href="narcan.html">Narcan</a>
-      <a href="en.html">English</a>
-      <a href="es.html">Español</a>
     </nav>
-    <h1>All Resources (Start Here)</h1>
-    <p class="mini">Pick what you need below. If you’re unsure, click <strong>Request Help</strong> and we’ll guide you step-by-step.</p>
+    <h1>All Free Medical Help Resources</h1>
+    <div class="freebanner">EVERY SERVICE LISTED HERE IS FREE TO USE</div>
+    <p class="mini">We are volunteers helping you navigate healthcare. We do not charge money or sell insurance.</p>
   </div>
 </header>
 
-<main>
+<main class="wrap">
 
   <div class="card danger">
-    <h2>Emergency</h2>
-    <p>If someone is in danger or needs immediate help, call <strong>911</strong>.</p>
-  </div>
-
-  <div class="two">
-    <div class="card">
-      <h2>1) I don’t have insurance</h2>
-      <p class="mini">Start with NYC Care + community clinics.</p>
-      <div class="pills">
-        <a class="pill" href="nyccare.html">NYC Care</a>
-        <a class="pill" href="clinics.html">Clinic Directory</a>
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <details>
-        <summary>What we can do for you</summary>
-        <ul>
-          <li>Help you understand NYC Care and where to enroll</li>
-          <li>Help you choose a clinic</li>
-          <li>Help you call and make an appointment</li>
-        </ul>
-      </details>
-    </div>
-
-    <div class="card soft">
-      <h2>2) I’m a senior (or helping a senior)</h2>
-      <p class="mini">Appointments, portals, follow-ups, forms, meds, transportation.</p>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-        <a class="pill" href="clinics.html">Find care</a>
-      </div>
-      <details>
-        <summary>Common senior needs we help with</summary>
-        <ul>
-          <li>Scheduling appointments and follow-ups</li>
-          <li>Setting up patient portals (like MyChart)</li>
-          <li>Understanding discharge instructions</li>
-          <li>Medication organization (simple schedules)</li>
-          <li>Transportation options (see below)</li>
-        </ul>
-      </details>
-    </div>
-  </div>
-
-  <div class="two">
-    <div class="card">
-      <h2>3) I need help getting to appointments (transportation)</h2>
-      <p class="mini">We can help plan routes and connect you to options.</p>
-      <details open>
-        <summary>What advocates can do</summary>
-        <ul>
-          <li>Find subway/bus directions</li>
-          <li>Help apply/schedule Access-A-Ride (paratransit)</li>
-          <li>If eligible, help request Medicaid non-emergency medical transportation (NEMT)</li>
-          <li>Ask the clinic/hospital social worker about transportation programs</li>
-        </ul>
-      </details>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <p class="mini"><strong>Note:</strong> We do not personally transport patients.</p>
-    </div>
-
-    <div class="card soft">
-      <h2>4) My medications are too expensive</h2>
-      <p class="mini">We can help you look for cheaper options and assistance.</p>
-      <details open>
-        <summary>Ways to lower medication costs</summary>
-        <ul>
-          <li>Check discount cards (e.g., GoodRx / SingleCare) and compare pharmacies</li>
-          <li>Ask if a generic exists</li>
-          <li>Ask the prescriber about cheaper alternatives</li>
-          <li>Look for manufacturer assistance programs (when available)</li>
-          <li>For seniors: check Medicare Part D plan options and Extra Help eligibility</li>
-        </ul>
-      </details>
-      <div class="pills">
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-      <p class="mini">We can help with comparisons, but we don’t sell insurance or take payments.</p>
-    </div>
-  </div>
-
-  <div class="two">
-    <div class="card">
-      <h2>5) I need a doctor / clinic</h2>
-      <p class="mini">Primary care, follow-up care, routine care.</p>
-      <div class="pills">
-        <a class="pill" href="clinics.html">Clinic Directory</a>
-        <a class="pill" href="help.html">Request Help</a>
-      </div>
-    </div>
-
-    <div class="card soft">
-      <h2>6) I need Narcan (naloxone)</h2>
-      <p class="mini">Where to get it free + what to do in an overdose.</p>
-      <div class="pills">
-        <a class="pill" href="narcan.html">Free Narcan</a>
-      </div>
-    </div>
+    <strong>Emergency?</strong> Call 911.
   </div>
 
   <div class="card">
-    <h2>Still not sure?</h2>
-    <p>Click <strong>Request Help</strong> and tell us what’s going on. We’ll respond with the next step.</p>
-    <div class="pills">
-      <a class="pill" href="help.html">Request Help</a>
-      <a class="pill" href="index.html">Back to Home</a>
-    </div>
-    <p class="mini">If you build more pages later, add them here first so the hub stays complete.</p>
+    <h2>Uninsured Care (Free Enrollment Help)</h2>
+    <a class="pill" href="nyccare.html">NYC Care</a>
+    <a class="pill" href="clinics.html">Community Clinics</a>
+    <a class="pill" href="help.html">Get Help Calling</a>
+  </div>
+
+  <div class="card soft">
+    <h2>Senior Support (Free Navigation Help)</h2>
+    <ul>
+      <li>Help scheduling appointments</li>
+      <li>Help understanding discharge instructions</li>
+      <li>Help organizing medications</li>
+      <li>Help setting up patient portals</li>
+    </ul>
+    <a class="pill" href="help.html">Request Free Help</a>
+  </div>
+
+  <div class="card">
+    <h2>Free Transportation Help</h2>
+    <ul>
+      <li>Access-A-Ride applications</li>
+      <li>Medicaid transportation coordination</li>
+      <li>Public transit directions</li>
+    </ul>
+    <a class="pill" href="help.html">Get Help</a>
+  </div>
+
+  <div class="card soft">
+    <h2>Lowering Medication Costs</h2>
+    <ul>
+      <li>Discount card comparisons</li>
+      <li>Generic alternatives</li>
+      <li>Manufacturer assistance programs</li>
+      <li>Medicare Extra Help guidance</li>
+    </ul>
+    <a class="pill" href="help.html">Get Help</a>
+  </div>
+
+  <div class="card">
+    <h2>Free Narcan</h2>
+    <a class="pill" href="narcan.html">Where to Get Narcan</a>
   </div>
 
 </main>
+
 </body>
 </html>
