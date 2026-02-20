@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NYC Medical Advocates | Español</title>
-  <meta name="description" content="Defensa médica y orientación gratis en New York City." />
-  <link rel="stylesheet" href="./styles.css?v=8" />
+  <title>NYC Medical Advocates</title>
+  <meta name="description" content="Defensa médica y orientación gratis en NYC: encontrar atención, citas, facturas, medicamentos y recursos de salud mental." />
+  <link rel="stylesheet" href="./styles.css?v=9" />
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
-<body>
+
+<body class="home">
 
 <div class="topbar">
   <div class="nav">
@@ -21,11 +22,11 @@
     </a>
 
     <div class="navlinks">
-      <a class="pill primary" href="ayuda.html">Pedir ayuda</a>
-      <a class="pill" href="tel:+12018225428">Llamar/Texto</a>
-      <a class="pill" href="recursos.html">Recursos</a>
+      <a class="pill primary" href="#pedir-ayuda">Pedir ayuda</a>
+      <a class="pill" href="tel:+12018225428">Llamar o texto</a>
+      <a class="pill" href="recursos.html">Empezar</a>
       <a class="pill" href="directorio.html">Directorio</a>
-      <a class="pill" href="about.html">About</a>
+      <a class="pill" href="about-es.html">Sobre nosotros</a>
       <a class="pill ghost" href="index.html">English</a>
     </div>
   </div>
@@ -35,19 +36,26 @@
   <div class="hero-grid">
 
     <div class="card glow">
-      <p class="kicker">DEFENSA MEDICA Y ORIENTACION GRATIS EN NEW YORK CITY</p>
-      <h1 class="h1">Guía clara para dar el siguiente paso.</h1>
-      <p class="sub">
-        Ayudamos con acceso a atención, citas, facturas, formularios, costos de medicamentos y recursos de salud mental.
-      </p>
+      <p class="kicker">DEFENSA MÉDICA Y ORIENTACIÓN GRATIS EN NEW YORK CITY</p>
 
-      <div class="badge">Defensa médica y orientación gratis. Sin costo.</div>
+      <div class="hero-mark">
+        <img src="./logo.svg" alt="" aria-hidden="true" />
+        <div>
+          <h1 class="h1" style="margin:0;">Guía clara cuando el sistema de salud se siente difícil.</h1>
+          <p class="sub" style="margin-top:10px;">
+            Ayudamos a personas en NYC a dar el siguiente paso: encontrar atención, programar citas,
+            entender facturas, reducir costos de medicamentos y completar formularios.
+          </p>
+        </div>
+      </div>
+
+      <div class="badge">Apoyo gratis. Sin costo.</div>
 
       <div class="callouts">
-        <a class="cta primary" href="ayuda.html">Pedir ayuda</a>
+        <a class="cta primary" href="#pedir-ayuda">Pedir ayuda</a>
+        <a class="cta" href="tel:+12018225428">Llamar 201-822-5428</a>
+        <a class="cta" href="sms:+12018225428">Texto 201-822-5428</a>
         <a class="cta" href="recursos.html">Empezar</a>
-        <a class="cta" href="directorio.html">Directorio</a>
-        <a class="cta" href="facturas.html">Facturas</a>
       </div>
 
       <hr class="sep" />
@@ -62,38 +70,82 @@
         <div class="card strip warn">
           <p class="kicker">Crisis de salud mental</p>
           <div class="h2">Llame o texto 988</div>
-          <p class="mini">Apoyo gratis 24/7 por llamada, texto o chat.</p>
+          <p class="mini">Apoyo de crisis 24/7 por llamada, texto o chat.</p>
         </div>
 
         <div class="card strip good">
-          <p class="kicker">NYC Well</p>
-          <div class="h2">1-888-692-9355</div>
-          <p class="mini">Texto WELL al 65173.</p>
+          <p class="kicker">Apoyo en NYC</p>
+          <div class="h2">NYC Well</div>
+          <p class="mini">Llame al 1-888-692-9355. Texto WELL al 65173.</p>
         </div>
       </div>
     </div>
 
     <div class="card">
-      <p class="kicker">Acceso rapido</p>
-      <div class="h2">Que necesita hoy</div>
+      <p class="kicker">EMPEZAR RÁPIDO</p>
+      <div class="h2">Necesidades comunes</div>
 
       <div class="callouts">
+        <a class="cta" href="recursos.html#sin-seguro">Encontrar atención</a>
+        <a class="cta" href="facturas.html">Facturas</a>
         <a class="cta" href="recursos.html#salud-mental">Salud mental</a>
-        <a class="cta" href="recursos.html#sin-seguro">Atencion</a>
-        <a class="cta" href="recursos.html#facturas">Facturas</a>
         <a class="cta" href="recursos.html#medicamentos">Medicamentos</a>
-        <a class="cta" href="directorio.html">Directorio</a>
+        <a class="cta" href="directorio.html#atencion">Directorio</a>
       </div>
 
-      <p class="mini" style="margin-top:12px;">Ultima actualizacion: Feb 2026</p>
+      <details>
+        <summary>Cómo funciona</summary>
+        <ol>
+          <li>Usted solicita ayuda por formulario o teléfono.</li>
+          <li>Aclaramos su meta y su urgencia.</li>
+          <li>Le damos pasos y recursos confiables.</li>
+        </ol>
+      </details>
+
+      <p class="mini" style="margin-top:12px;">Última actualización: Feb 2026</p>
     </div>
 
+  </div>
+
+  <div id="pedir-ayuda" class="card glow" style="margin-top:16px;">
+    <p class="kicker">PEDIR AYUDA</p>
+    <div class="h2">Use el formulario abajo</div>
+    <p class="sub">
+      Este formulario no se revisa en tiempo real. Si está en peligro inmediato o tiene síntomas graves, llame al 911.
+      Para crisis de salud mental, llame o envíe texto al 988. Después de enviarlo, un voluntario le contactará por teléfono o texto.
+    </p>
+
+    <div class="callouts">
+      <a class="cta primary" href="tel:+12018225428">Llamar 201-822-5428</a>
+      <a class="cta" href="sms:+12018225428">Texto 201-822-5428</a>
+      <a class="cta" href="ayuda.html">Abrir página del formulario</a>
+    </div>
+
+    <div style="max-width:900px;margin:14px auto 0;">
+      <iframe
+        title="Formulario de NYC Medical Advocates"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdHQc8pbAnbpcW2G4h_Y_mLpiQIesHF2MR1OfSxTlebqN-xYQ/viewform?embedded=true"
+        style="width:100%;height:1650px;border:0;border-radius:14px;background:rgba(255,255,255,.02);"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >Cargando…</iframe>
+    </div>
+
+    <details>
+      <summary>Qué preparar</summary>
+      <ul>
+        <li>Un resumen corto de lo que necesita</li>
+        <li>Horarios preferidos para contactarle</li>
+        <li>Si hay facturas: factura o carta, fecha de servicio, número de cuenta</li>
+        <li>Si hay seguro: tarjeta de seguro y cualquier carta de negación</li>
+      </ul>
+    </details>
   </div>
 
   <div class="footer">
     <div class="smallcaps">Seguridad y aviso</div>
     En una emergencia, llame al <strong>911</strong>. Para crisis de salud mental, llame o texto <strong>988</strong>.
-    Este sitio ofrece informacion general y apoyo de orientacion. No es consejo medico, diagnostico ni tratamiento.
+    Este sitio ofrece información general y apoyo de orientación. No es consejo médico, diagnóstico ni tratamiento.
   </div>
 </div>
 
